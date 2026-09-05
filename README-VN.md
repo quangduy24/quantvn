@@ -4,7 +4,7 @@ Tài liệu này mô tả các cập nhật và tính năng mới nhất đượ
 
 ---
 
-## 1. Cơ chế Phân chia Dữ liệu (Chronological Data Splitting: 60/40)
+## 1. Phân chia Dữ liệu (Chronological Data Splitting: 60/40)
 
 Mô hình hiện tại tự động áp dụng phương pháp chia tách tập dữ liệu theo **trình tự thời gian (Chronological)** với tỷ lệ **60/40**. Việc này đảm bảo không xảy ra hiện tượng rò rỉ dữ liệu (Look-ahead bias / Data leakage) vốn rất cấm kỵ trong mô phỏng chuỗi thời gian (Time-series Backtesting):
 - **Backtest Phase (60% dữ liệu quá khứ)**: Tập dữ liệu huấn luyện (In-sample) dùng để đánh giá hiệu suất cơ bản, kiểm tra các tham số như độ rộng Spread, ngưỡng Auto-Hedge.

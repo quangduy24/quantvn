@@ -1,8 +1,8 @@
-# Research Report & Academic Paper: Guéant-Cartea Risk-Controlled Asian Handicap Market Maker
+# Research Report & Academic Paper: Optimal Market Making for Asian Handicap Sports Derivatives
 
 This folder contains the complete LaTeX source code, compiled publication-ready PDF, figure assets, and BibTeX bibliography for the research paper:
 
-> **"Optimal Risk-Controlled Market Making for Asian Handicap Sports Derivatives: A Hybrid Guéant-Cartea Framework with Skellam Forecasting and Automated Inventory Sweeping"**  
+> **"Optimal Market Making for Asian Handicap Sports Derivatives"**  
 > *Author: Duy Truong Nguyen Quang (duytruongnguyenquang@gmail.com) (September 2026)*
 
 ---
@@ -11,13 +11,11 @@ This folder contains the complete LaTeX source code, compiled publication-ready 
 
 | File | Description |
 |---|---|
-| [`paper.pdf`](file:///d:/QuantVn/report/paper.pdf) | **Compiled 7-page academic research paper** in PDF format with high-resolution vector figures, cross-references, and tables. |
-| [`paper.tex`](file:///d:/QuantVn/report/paper.tex) | Complete self-contained LaTeX source file (two-column IEEE/ACM/Article journal format). |
+| [`paper.pdf`](file:///d:/QuantVn/report/paper.pdf) | **Compiled 8-page academic research paper** in PDF format with vector TikZ architecture flowchart, high-resolution dashboards, cross-references, and tables. |
+| [`paper.tex`](file:///d:/QuantVn/report/paper.tex) | Complete self-contained LaTeX source file (two-column journal format with native TikZ vector architecture diagram). |
 | [`references.bib`](file:///d:/QuantVn/report/references.bib) | BibTeX database containing all 18 academic references. |
-| [`figures/`](file:///d:/QuantVn/report/figures) | High-resolution empirical charts and architecture diagrams embedded in the paper: |
-| ├── `system_architecture.pdf` | **Vector flowchart** of the end-to-end institutional quantitative architecture (Figure 1). |
-| ├── `system_architecture.png` | 300-DPI raster version of the system architecture diagram. |
-| ├── `gueant_backtest_dashboard.png` | 4-panel quantitative performance dashboard (PnL curves, inventory utilization, scorecard). |
+| [`figures/`](file:///d:/QuantVn/report/figures) | High-resolution empirical charts and dashboards embedded in the paper: |
+| ├── `gueant_backtest_dashboard.png` | 4-panel in-sample quantitative performance dashboard. |
 | └── `gueant_microstructure.png` | Tick-by-tick order flow microstructure, quoting dynamics, and auto-hedge sweep executions. |
 
 ---

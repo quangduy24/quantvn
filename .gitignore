@@ -37,3 +37,10 @@ build/
 *.fdb_latexmk
 *.synctex.gz
 
+# Excluded report and architecture artifacts
+report/generate_architecture_diagram.py
+report/report-QuantVN-AH-Sport.pdf
+report/figures/system_architecture.pdf
+report/figures/system_architecture.png
+
+
